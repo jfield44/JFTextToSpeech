@@ -22,6 +22,9 @@
 		ABA3BD6417F35315002187CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3BD4317F35315002187CC /* UIKit.framework */; };
 		ABA3BD6C17F35315002187CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA3BD6A17F35315002187CC /* InfoPlist.strings */; };
 		ABA3BD6E17F35315002187CC /* JFTextToSpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA3BD6D17F35315002187CC /* JFTextToSpeechTests.m */; };
+		ABA3BD7917F35466002187CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3BD7717F35466002187CC /* AudioToolbox.framework */; };
+		ABA3BD7A17F35466002187CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3BD7817F35466002187CC /* AVFoundation.framework */; };
+		ABA3BD7C17F3555E002187CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3BD7B17F3555E002187CC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		ABA3BD6917F35315002187CC /* JFTextToSpeechTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JFTextToSpeechTests-Info.plist"; sourceTree = "<group>"; };
 		ABA3BD6B17F35315002187CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABA3BD6D17F35315002187CC /* JFTextToSpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextToSpeechTests.m; sourceTree = "<group>"; };
+		ABA3BD7717F35466002187CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ABA3BD7817F35466002187CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ABA3BD7B17F3555E002187CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA3BD7C17F3555E002187CC /* QuartzCore.framework in Frameworks */,
+				ABA3BD7917F35466002187CC /* AudioToolbox.framework in Frameworks */,
+				ABA3BD7A17F35466002187CC /* AVFoundation.framework in Frameworks */,
 				ABA3BD4217F35315002187CC /* CoreGraphics.framework in Frameworks */,
 				ABA3BD4417F35315002187CC /* UIKit.framework in Frameworks */,
 				ABA3BD4017F35315002187CC /* Foundation.framework in Frameworks */,
@@ -103,6 +112,9 @@
 		ABA3BD3E17F35315002187CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABA3BD7B17F3555E002187CC /* QuartzCore.framework */,
+				ABA3BD7717F35466002187CC /* AudioToolbox.framework */,
+				ABA3BD7817F35466002187CC /* AVFoundation.framework */,
 				ABA3BD3F17F35315002187CC /* Foundation.framework */,
 				ABA3BD4117F35315002187CC /* CoreGraphics.framework */,
 				ABA3BD4317F35315002187CC /* UIKit.framework */,
