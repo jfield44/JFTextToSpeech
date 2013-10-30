@@ -9,11 +9,11 @@ The speed at which the text is spoken can also be changed by a slider.
 ==============
 
 The simplest way to implement text to speech is by declaring the following
-
-AVSpeechUtterance *utt = [AVSpeechUtterance speechUtteranceWithString:toBeSpoken];
-    utt.rate = [self.speedSlider value];
-    [self.speechSynthesizer speakUtterance:utt];
-
+```Objective-C
+AVSpeechUtterance *utt = [AVSpeechUtterance speechUtteranceWithString:toBeSpoken]; //Replace to be spoken with your Text
+    utt.rate = [self.speedSlider value]; // Set the speed at which the text will be spoken, between -1 and 1 is a good range
+    [self.speechSynthesizer speakUtterance:utt]; // Speak the text
+```
 
 ==============
 
