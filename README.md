@@ -17,7 +17,7 @@ The simplest way to implement text to speech is by declaring the following
     //Set the speed at which the text will be spoken, between -1 and 1 is a good range
     utt.rate = [self.speedSlider value]; 
     
-     // Speak the text
+     //Speak the text
     [self.speechSynthesizer speakUtterance:utt];
 ```
 
